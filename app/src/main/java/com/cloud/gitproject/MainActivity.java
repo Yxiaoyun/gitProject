@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.tv_content).setOnClickListener(view->{
-            //Toast.makeText(this,"hello world",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"hello world",Toast.LENGTH_SHORT).show();
         });
 
     }
